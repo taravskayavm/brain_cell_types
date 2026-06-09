@@ -1,2 +1,22 @@
 __pycache__/
 *.pyc
+
+# Local data files
+data/
+*.h5ad
+*.h5
+*.csv
+
+# Trained models
+*.pkl
+*.joblib
+
+# Jupyter / local environment
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
